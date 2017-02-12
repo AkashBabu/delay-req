@@ -1,0 +1,30 @@
+{
+  "name": "delay-req",
+  "version": "1.0.0",
+  "description": "Delay each http request in expressjs, as a part of security implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkashBabu/delay-req.git"
+  },
+  "keywords": [
+    "delay",
+    "express",
+    "expressjs",
+    "rate",
+    "limiter",
+    "request"
+  ],
+  "author": "Akash Babu <001akashbabu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AkashBabu/delay-req/issues"
+  },
+  "homepage": "https://github.com/AkashBabu/delay-req#readme",
+  "dependencies": {
+    "on-finished": "^2.3.0"
+  }
+}
