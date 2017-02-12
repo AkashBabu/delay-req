@@ -18,7 +18,6 @@ var pendingReq = 0; // variable that is used to count the number of pending requ
  * @return {function} - function of the form fn(req, res, next)
  */
 function timeout (options ) {
-    timeout.resetCount = resetCount;
 
     var defaults = {
         delay: 500,
@@ -47,6 +46,7 @@ function timeout (options ) {
       res.status(options.errStatus).send(options.errMsg);
     }
   }
+  
 }
 
 module.exports = timeout
