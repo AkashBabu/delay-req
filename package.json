@@ -1,6 +1,6 @@
 {
   "name": "delay-req",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delay each http request in expressjs, as a part of security implementation",
   "main": "index.js",
   "scripts": {
